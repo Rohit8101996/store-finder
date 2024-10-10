@@ -1,0 +1,43 @@
+service: atm-finder
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  stage: dev
+  region: us-east-1
+
+  iam:
+    role: arn:aws:iam::dummy-account-name:role/role-name #dummy role arn from iam , post creating one, allow admin acces for now
+
+
+functions:
+  firstRun:
+    handler: handler.firstRun
+
+  findGeoCode:
+    handler: handler.findGeoCode
+
+  pushToAlgolia:
+    handler: handler.pushToAlgolia
+
+  sendToSlack:
+    handler: handler.sendToSlack
+
+  processUpdates:
+    handler: handler.processUpdates
+    events:
+        - stream: arn:aws:dynamodb:us-east-1:dummy-account:table/dummy-table/stream/2024-10-09T05:07:36.069 # enable streams on dynamodb db for trigger the new lambda with NEW_AND_OLD_IMAGES selection, paste the arn of dynamodb stream 
+          batchSize: 1  # Number of records the function will receive at once
+          startingPosition: LATEST
+          enabled : true
+
+  findLocations:
+    handler: handler.findLocations
+    events: 
+        - http: 
+            cors: true
+            path: locations
+            method: get
+            private: false
+
