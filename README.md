@@ -1,7 +1,14 @@
-<h1>Serverless Application with AWS Lambda, DynamoDB, Step Functions, Algolia, and Slack Integration
-Overview
-This project demonstrates a serverless architecture using AWS Lambda, DynamoDB, Step Functions, Algolia, and Slack for building a scalable and flexible event-driven application.</h1>
+<h1>Serverless Application with AWS Lambda, DynamoDB, Step Functions, Algolia, and Slack Integration</h1>
 
+Overview: 
+<div>
+This project demonstrates a serverless architecture using AWS Lambda, DynamoDB, API Gateway, CloudFormation using Serverless Framework, Step Functions, Go Pro Maps API, Algolia, and Slack for building a scalable and flexible event-driven application. Code uses NodeJS for development of project</div>
+<br>
+<div>Description: </div>
+<br>
+<div> This is store locator project similar to like dominos, atm finder or bank locator etc..</div>
+![alt text](image-8.png)
+<br><br>
 <div>
 <li>Choose nodejs template from serverless </li>
 <li>serverless create -t aws-nodejs </li>
