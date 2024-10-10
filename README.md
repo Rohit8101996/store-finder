@@ -1,8 +1,9 @@
 <h1>Serverless Application with AWS Lambda, DynamoDB, API Gateway, CloudFormation using Serverless Framework, Step Functions, Algolia, Go Pro Maps API and Slack Integration</h1>
-<h2>
-Overview: 
-This project demonstrates a serverless architecture using AWS Lambda, DynamoDB, API Gateway, CloudFormation using Serverless Framework, Step Functions, Go Pro Maps API, Algolia, and Slack for building a scalable and flexible event-driven application. Code uses NodeJS for development of project</h2>
 
+Overview: 
+<div>
+This project demonstrates a serverless architecture using AWS Lambda, DynamoDB, API Gateway, CloudFormation using Serverless Framework, Step Functions, Go Pro Maps API, Algolia, and Slack for building a scalable and flexible event-driven application. Code uses NodeJS for development of project</div>
+<br><br>
 <div>
 <li>Choose nodejs template from serverless </li>
 <li>serverless create -t aws-nodejs </li>
@@ -14,7 +15,7 @@ This project demonstrates a serverless architecture using AWS Lambda, DynamoDB, 
 
 
 <h3>
-Create first lambda. get All location data from DB - We just added dynamodb tbl name and it is connected since in serverless yml we provided region and since lambda and dynamodb were in same region it had no other requirements.
+Create first lambda, Get All location data from DB - We just added dynamodb tbl name and it is connected since in serverless yml we provided region and since lambda and dynamodb were in same region it had no other requirements.
 </h3>
 
 <li> Use serverless deploy </li>
