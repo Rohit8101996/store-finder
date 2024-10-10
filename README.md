@@ -3,6 +3,8 @@
 Overview: 
 <div>
 This project demonstrates a serverless architecture using AWS Lambda, DynamoDB, API Gateway, CloudFormation using Serverless Framework, Step Functions, Go Pro Maps API, Algolia, and Slack for building a scalable and flexible event-driven application. Code uses NodeJS for development of project</div>
+
+<div> This is store locator project similar to like dominos, atm finder or bank locator etc..</div>
 <br><br>
 <div>
 <li>Choose nodejs template from serverless </li>
