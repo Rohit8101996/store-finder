@@ -1,6 +1,7 @@
-<h1>Serverless Application with AWS Lambda, DynamoDB, Step Functions, Algolia, and Slack Integration
-Overview
-This project demonstrates a serverless architecture using AWS Lambda, DynamoDB, Step Functions, Algolia, and Slack for building a scalable and flexible event-driven application.</h1>
+<h1>Serverless Application with AWS Lambda, DynamoDB, API Gateway, CloudFormation using Serverless Framework, Step Functions, Algolia, Go Pro Maps API and Slack Integration</h1>
+<h2>
+Overview: 
+This project demonstrates a serverless architecture using AWS Lambda, DynamoDB, API Gateway, CloudFormation using Serverless Framework, Step Functions, Go Pro Maps API, Algolia, and Slack for building a scalable and flexible event-driven application. Code uses NodeJS for development of project</h2>
 
 <div>
 <li>Choose nodejs template from serverless </li>
