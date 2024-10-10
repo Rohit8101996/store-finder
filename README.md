@@ -2,7 +2,6 @@
 Overview
 This project demonstrates a serverless architecture using AWS Lambda, DynamoDB, Step Functions, Algolia, and Slack for building a scalable and flexible event-driven application.</h1>
 
-![alt text](image-8.png)
 <div>
 <li>Choose nodejs template from serverless </li>
 <li>serverless create -t aws-nodejs </li>
@@ -14,7 +13,7 @@ This project demonstrates a serverless architecture using AWS Lambda, DynamoDB, 
 
 
 <h3>
-Create first lambda. get All location data from DB - We just added dynamodb tbl name and it is connected since in serverless yml we provided region and since lambda and dynamodb were in same region it had no other requirements.
+Create first lambda, Get All location data from DB - We just added dynamodb tbl name and it is connected since in serverless yml we provided region and since lambda and dynamodb were in same region it had no other requirements.
 </h3>
 
 <li> Use serverless deploy </li>
@@ -638,5 +637,3 @@ https://www.algolia.com/doc/guides/managing-results/refine-results/geolocation/#
 <li> using free version of slack ,so no issue</li>
 <li> <a link ='https://jsonviewer.stack.hu/'> view any json or format it </a></li>
 <li><a link = 'https://gist.github.com/runtimeZero'> gist for locations </a></li>
-
-
