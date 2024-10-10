@@ -7,6 +7,7 @@ This project demonstrates a serverless architecture using AWS Lambda, DynamoDB, 
 <div>Description: </div>
 <br>
 <div> This is store locator project similar to like dominos, atm finder or bank locator etc..</div>
+
 ![alt text](image-8.png)
 <br><br>
 <div>
